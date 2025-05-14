@@ -420,6 +420,8 @@ span {
     padding: 2rem 3%;
   }
 }
+
+
 @media (max-width:991px){
   #menu-icon{
     display: block;
@@ -500,11 +502,19 @@ span {
     width: 70vw;
     margin-top: 2rem;
   }
+  .wrapper-cv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .btn{
+    display: inline-block;  /* because it allow to take padding margin  */
+  }
   .btn-wrapper{
     text-align: center;
   }
   .btn{
-    display: inline-block;   because 
+    display: inline-block;   /* because it allow to take padding margin  */
   }
   .services h2{
     margin-bottom: 2rem; 
@@ -540,5 +550,33 @@ span {
     width: 70vw;
     margin-top: 5rem;
   }
+  .wrapper-cv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .btn{
+    display: inline-block;  /* because it allow to take padding margin  */
+  }
+  .btn-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .btn{
+    display: inline-block;   /* because it allow to take padding margin  */
+  }
 }
+
+  @media (max-width:480px){
+    .wrapper-cv {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .btn{
+      display: inline-block;  /* because it allow to take padding margin  */
+    }
+
+  }
+
 
