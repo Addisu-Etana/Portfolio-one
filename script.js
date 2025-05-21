@@ -9,6 +9,15 @@ window.onscroll = () => {
   menu.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
+ 
+const flagIcon = document.getElementById('flag');
+const message = document.getElementById('info-message');
+flagIcon.addEventListener('mouseover',()=>{
+  message.textContent = 'Click the Flag For More About Ethiopia';
+});
+ flagIcon.addEventListener('mouseout', ()=>{
+  message.textContent = ' ';
+ });
 
 const typed = new Typed(".multiple-text", {
   strings: [
