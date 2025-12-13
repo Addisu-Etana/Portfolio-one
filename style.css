@@ -116,7 +116,7 @@ section {
 .home-img img:hover {
   box-shadow: 0 0 25px var(--main-color), 0 0 35px var(--main-color),
     0 0 45px var(--main-color);
-}
+} 
 @keyframes floatImage {
   0% {
     transform: translateY(0);
@@ -206,11 +206,13 @@ span {
   background: var(--snd-bg-color);
 }
 .about-img img {
-  width: 25vw;
-  border-radius: 50%;
+  width: 25vw; 
+  border-radius: 50%; 
   box-shadow: 0 0 25px red;
   cursor: pointer;
+  animation: floatImage 4s ease-in-out infinite;
   transition: 0.4s ease;
+  transform: scaleX(-1);
 }
 .about-img img:hover {
   box-shadow: 0 0 25px var(--main-color), 0 0 35px var(--main-color),
